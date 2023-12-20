@@ -51,7 +51,7 @@
     </div>
   </header>
 
-  
+
   <main>
     <!-- title section-->
 
@@ -60,8 +60,8 @@
         <h1 class="title-efectiv-solution">
           Effective Solutions for Your Business
         </h1>
-        <button class="book_service_button" type="button">
-          Order Service
+        <button class="book_service_button " type="button">
+          <data-modal-open> Order Service</data-modal-open>
         </button>
       </div>
     </section>
@@ -298,6 +298,7 @@
         </ul>
       </div>
     </section>
+    <!-- costumer section -->
     <section class="section-costumers">
       <div class="container">
         <h2 class="costumer-title">Customers</h2>
@@ -344,7 +345,7 @@
   </main>
   <!-- footer section -->
 
-  <footer >
+  <footer>
     <div class="footer-div">
 
       <div class="div-logo-footer">
@@ -394,6 +395,17 @@
     </div>
   </footer>
   <script src="./js/modal.js"></script>
+  <div class="modal-window is-hidden">
+    <data-modal-open>
+      <div class="inside-modal-window">
+        <button class="button-modal-window" type="button"><data-modal-close>
+            <svg width="8" height="8" class="svg-modal-window">
+              <use href="./images/icons.svg#close"></use>
+            </svg> </data-modal-close></button>
+
+      </div>
+    </data-modal-open>
+  </div>
 </body>
 
 </html>
