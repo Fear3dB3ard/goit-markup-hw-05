@@ -291,8 +291,8 @@ ul {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0, 0.2, 1);
 }
 .images:hover,
-.images:focus{
-  transform: translateY(0%)
+.images:focus {
+  transform: translateY(0%);
 }
 
 /* our tem section */
@@ -604,6 +604,10 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--SLATE);
+}
+.subtitle_paragraf:hover,
+.subtitle_paragraf:focus {
+  transform: translateY(0%);
 }
 .modal-window {
   position: fixed;
