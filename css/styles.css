@@ -464,7 +464,7 @@ footer {
 }
 .footer_text {
   color: var(--CLOUD);
-  max-width: 264px;
+  width: 264px;
 }
 .div-social-media {
   display: flex;
