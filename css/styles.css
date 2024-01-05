@@ -643,7 +643,7 @@ footer {
 .is-hidden {
   opacity: 0;
   visibility: hidden;
-  pointer-events: none;
+  pointer-events:none;
 }
 .inside-modal-window {
   position: absolute;
